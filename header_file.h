@@ -8,7 +8,7 @@
 
 #include <vector>
 #include <stack>
-
+#include <iostream>
 using namespace std;
 
 #endif //NEW_LEET_HEADER_FILE_H

@@ -5,7 +5,7 @@
 #ifndef NEW_LEET_HEADER_FILE_H
 #define NEW_LEET_HEADER_FILE_H
 
-
+#include <string>
 #include <vector>
 #include <stack>
 #include <iostream>

@@ -1,13 +1,14 @@
 #include <iostream>
 #include <vector>
-#include "firstRepeat.h"
+#include "longestDistance.h"
 
 using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
-    FirstRepeat s;
+    LongestDistance s;
 
-    cout << s.findFirstRepeat("qywyer23tdd",11) << endl;
+    vector<int> A={0,5};
+    cout << s.getDis(A,2) << endl;
     return 0;
 }

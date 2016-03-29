@@ -21,7 +21,15 @@ public:
                 cnt = 1;
             }
         }
-        return gifts[index];
+        cnt = 0;
+        for (int j = 0; j < n; ++j) {
+            if (gifts[j]==gifts[index])
+                cnt++;
+        }
+        if(cnt>n/2)
+            return gifts[index];
+        else
+            return 0;
     }
 };
 

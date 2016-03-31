@@ -10,6 +10,9 @@
 /*  http://www.geeksforgeeks.org/largest-rectangle-under-histogram/
  *  题目：最大直方图矩形面积
  *
+ *  思路：对于每一个bar，为了求得最大直方图面积，需要求左右比它小的bar
+ *  而在栈s中，遇到大的bar则压入，遇到小的bar，则出栈，这样出栈的bar，恰好
+ *  得到两边都小的bar
  */
 
 class MaxInnerRec {

@@ -1,16 +1,13 @@
 #include <iostream>
 #include <vector>
-#include "countBits.h"
+#include "numDistinct.h"
 
 using namespace std;
 
 int main() {
 
     Solution s;
-    vector<int> v = s.countBits(24);
-    for (int i = 0; i < v.size(); ++i) {
-        cout << v[i] << " ";
-    }
+    cout << s.numDistinct("rabbbit","rabbit");
     cout << endl;
     return 0;
 }

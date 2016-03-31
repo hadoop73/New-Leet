@@ -19,7 +19,19 @@
 class Solution {
 public:
     int numDistinct(string s, string t) {
-
+        int n = t.length(),m = s.length();
+        if (n>m)     return 0;
+        //cout << n << " " << m << endl;
+        vector<vector<int>> v(n+1,vector<int>(m+1,0));
+        for (int k = 0; k <= m; ++k) {
+            v[0][k] = 1;
+        }
+        for (int i = 1; i <= m; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                v[j][i] = v[j][i-1] + (t[j]==s[i]?v[j-1][i-1]:0);
+            }
+        }
+        return v[n][m];
     }
 };
 

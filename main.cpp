@@ -1,15 +1,14 @@
 #include <iostream>
 #include <vector>
-#include "reverseString.h"
+#include "checkReverseEqual.h"
 
 using namespace std;
 
 int main() {
 
-    Reverse s;
+    ReverseEqual s;
 
-
-    cout << s.reverseString("This is nowcoder");
+    cout << s.checkReverseEqual("a","a");
     cout << endl;
     return 0;
 }

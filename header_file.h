@@ -10,6 +10,10 @@
 #include <stack>
 #include <map>
 #include <iostream>
+#include <math.h>
+#include <limits.h>
+
+#include <bits/stl_algo.h>
 using namespace std;
 
 #endif //NEW_LEET_HEADER_FILE_H

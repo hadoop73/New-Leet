@@ -13,6 +13,8 @@
  * 主要还是 C++ 字符串的查找问题，比较好的写法
  * while((pos = A[i].find("coder", pos+5)) != string::npos)
                 count++;
+
+           http://www.nowcoder.com/profile/856001/codeBookDetail?submissionId=3441675
  */
 
 class Coder {

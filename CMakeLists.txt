@@ -3,5 +3,5 @@ project(New_Leet)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp header_file.h coder.h )
+set(SOURCE_FILES main.cpp header_file.h  visit.h generateParenthesis.h letterCombinations.h)
 add_executable(New_Leet ${SOURCE_FILES} )

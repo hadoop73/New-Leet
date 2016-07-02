@@ -1,17 +1,14 @@
 #include <iostream>
 #include <vector>
-#include "coder.h"
+#include "visit.h"
 
 using namespace std;
 
 int main() {
 
-    Coder s;
-    vector<string> A = {"i am a coder","Coder Coder","Code"};
-    vector<string> C = s.findCoder(A,3);
-    for (int i = 0; i < C.size(); ++i) {
-        cout << C[i] ;
-    }
-    cout << endl;
+    Visit v;
+    vector<vector<int> > map = {{0,1,0},{2,0,0}};
+    int n = v.countPath(map,2,3);
+    cout <<n << endl;
     return 0;
 }
